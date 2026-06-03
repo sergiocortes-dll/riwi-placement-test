@@ -1,0 +1,6 @@
+{
+  "name": "English Placement Test",
+  "description": "Una aplicación interactiva para realizar una evaluación completa de nivel de inglés (Placement Test): Use of English, Reading, Listening (con TTS), Writing y Speaking, con grader de IA (Gemini).",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
