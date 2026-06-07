@@ -1,0 +1,1 @@
+export { useStudent } from "./useStudent";

@@ -8,6 +8,7 @@ import {
   User,
 } from "lucide-react";
 import * as React from "react";
+import { Link } from "react-router";
 import { Badge } from "../ui/badge";
 import { Button } from "../ui/button";
 import { Calendar } from "../ui/calendar";
@@ -183,7 +184,7 @@ export default function StudentForm({ currentVersion }: StudentFormProps) {
           </div>
 
           {/* Action Button. */}
-          <Button size="lg" className="w-full">
+          <Button render={<Link to="/test" />} size="lg" className="w-full">
             <Award size={16} />
             Start Placement Test
           </Button>
